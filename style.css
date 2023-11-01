@@ -1,14 +1,23 @@
 #body {
+<<<<<<< HEAD
   padding: 0px;
   margin: 0;
+=======
+  color: white;
+  display: flex;
+>>>>>>> 5d7e8b6 (First commit)
 }
 
 #container {
   display: inline-block;
+<<<<<<< HEAD
   text-align: center;
   width: 100%;
   padding: 0;
   margin: 0;
+=======
+  margin: 0 auto;
+>>>>>>> 5d7e8b6 (First commit)
 }
 
 #header {
@@ -18,6 +27,7 @@
   align-items: center;
 }
 
+<<<<<<< HEAD
 #title {
   font-size: 3rem;
 }
@@ -78,4 +88,10 @@
 
 .fa-linkedin {
   color: #f40616;
+=======
+#social-container {
+  display: block;
+  flex-direction: row;
+  justify-content: space-around;
+>>>>>>> 5d7e8b6 (First commit)
 }
