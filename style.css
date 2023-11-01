@@ -1,23 +1,20 @@
 #body {
-<<<<<<< HEAD
   padding: 0px;
   margin: 0;
-=======
-  color: white;
-  display: flex;
->>>>>>> 5d7e8b6 (First commit)
+  padding: 0px;
+  margin: 0;
 }
 
 #container {
   display: inline-block;
-<<<<<<< HEAD
   text-align: center;
   width: 100%;
   padding: 0;
   margin: 0;
-=======
-  margin: 0 auto;
->>>>>>> 5d7e8b6 (First commit)
+  text-align: center;
+  width: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 #header {
@@ -27,8 +24,50 @@
   align-items: center;
 }
 
-<<<<<<< HEAD
 #title {
+  font-size: 3rem;
+}
+
+#about-me-container {
+  background-color: #f40616;
+  color: white;
+  padding: 9rem 4.5rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  width: 100%;
+}
+
+#about-me-heading {
+  font-size: 2rem;
+  font-weight: 800;
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+}
+
+.about-me-text {
+  width: 60%;
+  margin: 0 auto;
+}
+
+#skills-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 60%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+#frontend-container {
+  width: 50%;
+}
+
+#backend-container {
+  width: 50%;
+}
+
+<<<<<<< HEAD #title {
   font-size: 3rem;
 }
 
@@ -88,10 +127,4 @@
 
 .fa-linkedin {
   color: #f40616;
-=======
-#social-container {
-  display: block;
-  flex-direction: row;
-  justify-content: space-around;
->>>>>>> 5d7e8b6 (First commit)
 }
