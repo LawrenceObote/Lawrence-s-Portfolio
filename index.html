@@ -12,13 +12,23 @@
     />
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body id="body">
+  <body
+    id="body"
+    style="
+      background-color: #71797e;
+      color: white;
+      font-family: 'eurostile', sans-serif;
+    "
+  >
     <div id="container">
       <!-- linkedin, github, email, resume -->
       <div id="intro-container">
         <h1 id="title">Fullstack Developer</h1>
         <!--Insert avatar here when I have time-->
       </div>
+      <!-- <div id="image-container">
+        <img src="Computer-Page.jpeg" alt="Computer Page" class=""responsive></i>
+      </div> -->
       <div id="about-me-container">
         <h2 id="about-me-heading">Hi I'm Lawrence. Welcome to my page!</h2>
         <p class="about-me-text">
@@ -32,6 +42,7 @@
       </div>
       <div id="skills-container">
         <div id="frontend-container">
+          <span class="fa fa-regular fa-desktop skills-icon"></span>
           <h1>Frontend<br />Development</h1>
           <h3>Skills</h3>
           <p>JavaScript</p>
@@ -43,6 +54,7 @@
           <p>Java Server Pages</p>
         </div>
         <div id="backend-container">
+          <span class="fa fa-regular fa-server skills-icon"></span>
           <h1>Backend<br />Development</h1>
           <h3>Skills</h3>
           <p>Node.js</p>
@@ -59,15 +71,17 @@
       </div>
       <div id="projects"></div>
       <div id="testemonials"></div>
-      <div id="header">
+      <div id="footer">
         <div id="social-container">
-          <a href="https://www.linkedin.com/in/lawrenceobote/"
+          <a href="https://www.linkedin.com/in/lawrenceobote/" target="_blank"
             ><span class="fa fa-linkedin social-icons"></span
           ></a>
-          <a href="https://github.com/LawrenceObote"
+          <a href="https://github.com/LawrenceObote" target="_blank"
             ><span class="fa fa-brands fa-github social-icons"></span
           ></a>
-          <span>LawrenceRObote@gmail.com</span>
+          <a href="mailto: LawrenceRObote@gmail.com" target="_blank"
+            ><span class="fa fa-solid fa-envelope social-icons"></span
+          ></a>
         </div>
         <!-- <div id="resume-container">Click here for my resume</div> -->
       </div>

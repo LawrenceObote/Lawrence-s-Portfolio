@@ -3,25 +3,23 @@
   margin: 0;
   padding: 0px;
   margin: 0;
+  background-color: #71797e;
+  overflow-x: hidden;
 }
 
 #container {
-  display: inline-block;
-  text-align: center;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  text-align: center;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-}
-
-#header {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  text-align: center;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
   align-items: center;
+  justify-content: center;
+}
+
+#image-container {
+  background-color: #6fafca;
 }
 
 #title {
@@ -29,34 +27,41 @@
 }
 
 #about-me-container {
-  background-color: #f40616;
+  display: flex;
+  flex-direction: column;
+  background-color: #5fc6f1;
   color: white;
   padding: 9rem 4.5rem;
   font-size: 1.5rem;
   font-weight: 400;
   width: 100%;
+  justify-content: start;
+  align-items: center;
 }
 
 #about-me-heading {
   font-size: 2rem;
   font-weight: 800;
   width: 60%;
-  margin: 0 auto;
-  margin-bottom: 1.5rem;
 }
 
 .about-me-text {
-  width: 60%;
+  width: 40%;
   margin: 0 auto;
+  padding-bottom: 100px;
 }
 
 #skills-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
   width: 60%;
   margin: 0 auto;
   max-width: 1200px;
+  margin-top: -150px;
+  padding-top: 60px;
+  z-index: 1;
+  background-color: #71797e;
+  border-radius: 12px;
 }
 
 #frontend-container {
@@ -67,64 +72,40 @@
   width: 50%;
 }
 
-<<<<<<< HEAD #title {
+#title {
   font-size: 3rem;
 }
 
-#about-me-container {
-  background-color: #f40616;
+.skills-icon {
+  background-color: #e996c0;
   color: white;
-  padding: 9rem 4.5rem;
-  font-size: 1.5rem;
-  font-weight: 400;
-  width: 100%;
-}
-
-#about-me-heading {
-  font-size: 2rem;
-  font-weight: 800;
-  width: 60%;
-  margin: 0 auto;
-  margin-bottom: 1.5rem;
-}
-
-.about-me-text {
-  width: 60%;
-  margin: 0 auto;
-}
-
-#skills-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  width: 60%;
-  margin: 0 auto;
-  max-width: 1200px;
-}
-
-#frontend-container {
-  width: 50%;
-}
-
-#backend-container {
-  width: 50%;
+  font-size: 2em;
+  text-align: center;
+  line-height: 2em;
+  border-radius: 50%;
+  height: 2em;
+  width: 2em;
 }
 
 #social-container {
-  display: block;
+  display: flex;
   flex-direction: row;
-  text-align: left;
+  justify-content: space-around;
+  align-items: space-around;
   width: 100%;
   font-size: 40px;
-  color: #f40616;
-  width: 60%;
+  color: #fbde54;
   margin: 0 auto;
 }
 
-.fa-github {
-  color: #f40616;
+#footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
-.fa-linkedin {
-  color: #f40616;
+.fa.social-icons {
+  color: #fbde54;
 }
