@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0px;
   margin: 0;
-  background-color: #71797e;
+  background-color: white;
   overflow-x: hidden;
 }
 
@@ -29,7 +29,7 @@
 #about-me-container {
   display: flex;
   flex-direction: column;
-  background-color: #5fc6f1;
+  background-color: #0e390e;
   color: white;
   padding: 9rem 4.5rem;
   font-size: 1.5rem;
@@ -61,8 +61,11 @@
   margin-bottom: 60px;
   padding-top: 60px;
   z-index: 1;
-  background-color: #71797e;
+  background-color: white;
   border-radius: 12px;
+  color: black;
+  border: 1px #e7edf7 solid;
+  box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #e6ecf8;
 }
 
 #frontend-container {
@@ -79,7 +82,7 @@
 
 .skills-icon {
   background-color: #e996c0;
-  color: white;
+  color: black;
   font-size: 2em;
   text-align: center;
   line-height: 2em;
@@ -106,24 +109,18 @@
   align-items: center;
   width: 100%;
   height: 300px;
-  background-color: #5fc6f1;
+  background-color: #0e390e;
   margin-top: 60px;
 }
 
 .fa.social-icons {
-  color: #fbde54;
+  color: white;
 }
 
 .skills-text {
-  color: #5fc6f1;
+  color: #0e390e;
   font-size: 1.5rem;
   font-weight: 800;
-}
-
-.border {
-  border-top: 1px solid #4d5357;
-  width: 100%;
-  height: 0px;
 }
 
 #projects {
@@ -159,9 +156,3 @@
   width: 430px;
   padding: 20px 0px;
 }
-/* 
-#todo-app {
-  position: relative;
-  width: 50%;
-  max-width: 300px;
-} */
