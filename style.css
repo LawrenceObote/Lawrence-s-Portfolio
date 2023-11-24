@@ -159,6 +159,7 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .skills-container {
+  #skills-container {
+    flex-direction: column;
   }
 }
