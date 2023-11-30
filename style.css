@@ -38,7 +38,7 @@ a {
   flex-direction: column;
   background-color: #0e390e;
   color: white;
-  padding: 9rem 4.5rem;
+  /* padding: 9rem 4.5rem; */
   font-size: 1.5rem;
   font-weight: 400;
   width: 100%;
@@ -185,11 +185,4 @@ a {
   z-index: 1;
   width: 100%;
   padding: 20px 0px;
-  padding-right: calc(var(--bs-gutter-x) * 0.5);
-}
-
-@media only screen and (max-width: 600px) {
-  #skills-container {
-    flex-direction: column;
-  }
 }
