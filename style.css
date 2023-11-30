@@ -40,7 +40,7 @@ a {
   padding: 9rem 4.5rem;
   font-size: 1.5rem;
   font-weight: 400;
-  width: 100%;
+  width: 100vw;
   justify-content: start;
   align-items: center;
 }
