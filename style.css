@@ -4,6 +4,7 @@
   background-color: white;
   overflow-x: hidden;
   width: 100%;
+  text-align: center;
 }
 
 a {
@@ -78,18 +79,18 @@ a {
 .skills-title {
   width: 100%;
   text-align: center;
-  margin: 0 auto;
+  margin: 0 auto 30px auto;
 }
 
 #frontend-container {
   height: 100%;
-  margin: 0 auto;
+  margin: 0;
   text-align: center;
 }
 
 #backend-container {
   height: 100%;
-  margin: 0 auto;
+  margin: 0;
   text-align: center;
 }
 
@@ -186,10 +187,4 @@ a {
   width: 100%;
   padding: 20px 0px;
   padding-right: calc(var(--bs-gutter-x) * 0.5);
-}
-
-* {
-  outline: 1px solid red !important;
-  opacity: 1 !important;
-  visibility: visible !important;
 }
