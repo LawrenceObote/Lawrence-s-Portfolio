@@ -188,8 +188,8 @@ a {
   padding-right: calc(var(--bs-gutter-x) * 0.5);
 }
 
-@media only screen and (max-width: 600px) {
-  #skills-container {
-    flex-direction: column;
-  }
+* {
+  outline: 1px solid red !important;
+  opacity: 1 !important;
+  visibility: visible !important;
 }
